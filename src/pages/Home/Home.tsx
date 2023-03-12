@@ -40,7 +40,7 @@ const Home = () => {
           ranges={state}
           maxDate={new Date()}
         />
-        {/* <button
+        <button
           type="button"
           className="bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow"
           onClick={() => setShowTrafficInicidents((state) => !state)}
@@ -48,7 +48,7 @@ const Home = () => {
           {showTrafficIncidents
             ? 'Hide traffic incidents'
             : 'Show traffic incidents'}
-        </button> */}
+        </button>
       </div>
       <div>
         <MapContainer center={position} zoom={13}>
